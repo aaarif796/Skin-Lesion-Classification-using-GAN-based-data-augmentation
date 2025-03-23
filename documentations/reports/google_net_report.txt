@@ -1,0 +1,23 @@
+Classification Report:
+              precision    recall  f1-score   support
+
+       akiec       0.86      0.72      0.79        87
+         bcc       0.57      0.63      0.60        92
+         bkl       0.39      0.40      0.40       126
+          df       0.94      0.89      0.92        92
+         mel       0.41      0.42      0.42        99
+          nv       0.59      0.60      0.60       106
+        vasc       0.92      0.92      0.92        98
+
+    accuracy                           0.64       700
+   macro avg       0.67      0.66      0.66       700
+weighted avg       0.65      0.64      0.65       700
+
+Confusion Matrix:
+[[63  6 12  1  5  0  0]
+ [ 3 58 24  0  2  5  0]
+ [ 5 15 51  3 32 17  3]
+ [ 2  0  3 82  2  3  0]
+ [ 0 11 27  1 42 16  2]
+ [ 0  8 13  0 18 64  3]
+ [ 0  3  0  0  1  4 90]]
